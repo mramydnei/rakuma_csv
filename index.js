@@ -63,4 +63,6 @@ function create_csv()
     //ボタンがクリックされたら「downloadCSV」を実行する
     download.addEventListener("click", downloadCSV, false);
 
+    alert("CSVファイルの作成が完了しました！")
+
 }
